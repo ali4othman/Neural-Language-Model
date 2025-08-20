@@ -7,7 +7,7 @@ on:
 
 jobs:
   example-job:
-    runs-on : windows:latest
+    runs-on: windows-latest
     steps:
       - name: print welcome message
         run: echo "welcome to our first github actions workflow"
