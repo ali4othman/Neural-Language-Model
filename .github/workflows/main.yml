@@ -6,9 +6,9 @@ on:
       - main
 
 jobs:
-  - name : example job
+  example job
     runs-on : windows:latest
-  steps:
-    - name : print welcome message
-    run : echo "welcome to our first github actions workflow"
+    steps:
+      - name : print welcome message
+        run : echo "welcome to our first github actions workflow"
     
